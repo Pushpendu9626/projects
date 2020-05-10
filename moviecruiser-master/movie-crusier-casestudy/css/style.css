@@ -1,0 +1,50 @@
+body{
+    min-height: 100vh;
+}
+header{
+    background-color: tomato;
+    min-height: 10vh;
+}
+footer{
+    margin-top: 10px!important;
+    background-color: tomato;
+    min-height: 10vh;
+}
+section.alone{
+    min-height: 80vh;
+}
+.active{
+    font-weight: 100;
+}
+.nav-link{
+    color: red;
+}
+.navbar-brand{
+    color: white;
+    font-weight: bolder;
+}
+.big-banner{
+     background-image: url("https://images.pexels.com/photos/2925312/pexels-photo-2925312.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+ height: 500px; 
+padding-top: 150px;
+}
+
+.fav{
+    color: red;
+}
+
+
+.material-icons{
+    width: 24px !important;
+    height: 24px !important;
+}
+.text{
+    color:white;
+    font-weight: bold;
+    font-size:50px;
+    font-family: Consolas;
+    text-shadow: 2px 0 0 #000000, -2px 0 0 #000000, 0 2px 0 #000000, 0 -2px 0 #000000, 1px 1px #000000, -1px -1px 0 #000000, 1px -1px 0 #000000, -1px 1px 0 #000000;
+        
+    
+    
+}

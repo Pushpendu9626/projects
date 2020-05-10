@@ -1,0 +1,38 @@
+header {
+  min-height: 3rem;
+  background-color: coral;
+}
+section {
+  margin-bottom: 1rem;
+  min-height: 85vh;
+}
+
+footer {
+  background-color: coral;
+  bottom: 0;
+}
+
+.material-icons {
+  vertical-align: middle;
+}
+.free {
+  background-color: teal;
+  color: white;
+  font-size: small;
+  font-weight: 100;
+}
+.btn-coral {
+  background-color: coral;
+}
+.text-right {
+  text-align: right;
+}
+.card{
+    min-height: 350px;
+}
+ .JumbotronImage{
+            background-image: url("https://burst.shopifycdn.com/photos/breakfast-from-above.jpg?width=1200&format=pjpg&exif=0&iptc=0");
+            background-size:cover;
+            
+            
+        }
