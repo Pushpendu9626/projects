@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+        https://www.springframework.org/schema/beans/spring-beans.xsd">
+
+	<bean id="country" class="com.cognizant.springLearn.Country"
+		scope="prototype">
+		<property name="name" value="INDIA" />
+		<property name="code" value="IN" />
+
+	</bean>
+	<bean id="IN" class="com.cognizant.springLearn.Country"
+		scope="prototype">
+		<property name="name" value="INDIA" />
+		<property name="code" value="IN" />
+
+	</bean>
+
+	<bean id="USA" class="com.cognizant.springLearn.Country"
+		scope="prototype">
+		<property name="name" value="UNITED STATE OF AMERICA" />
+		<property name="code" value="USA" />
+
+	</bean>
+
+
+	<bean id="DE" class="com.cognizant.springLearn.Country"
+		scope="prototype">
+		<property name="name" value="DENMARK" />
+		<property name="code" value="DE" />
+
+	</bean>
+
+
+	<bean id="JE" class="com.cognizant.springLearn.Country"
+		scope="prototype">
+		<property name="name" value="JIMBABWAE" />
+		<property name="code" value="JE" />
+
+	</bean>
+
+	<bean id="countryList" class="java.util.ArrayList">
+		<constructor-arg>
+
+			<list>
+
+				<ref bean="IN"></ref>
+				<ref bean="USA"></ref>
+				<ref bean="DE"></ref>
+				<ref bean="JE"></ref>
+
+
+			</list>
+
+		</constructor-arg>
+
+	</bean>
+
+</beans>
