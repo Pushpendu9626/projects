@@ -1,0 +1,19 @@
+spring:
+  application:
+    name: api-gateway
+
+ribbon:
+    eureka:
+        enabled: false
+server:
+    port: 8081
+zuul:
+  igoredServices: '*'
+  routes:
+    rest:
+      path: /api/auth/**
+      serviceId: userauth
+      strip-prefix: false
+userauth:
+  ribbon:
+    listOfServers: localhost:8080
